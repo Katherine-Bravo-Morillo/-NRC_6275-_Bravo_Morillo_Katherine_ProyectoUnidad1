@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contactos</title>
+    <!-- SCRIPT de bootstrap -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- **************************************************** -->
+    <!--                       Menu de opciones  -->
+    <!-- **************************************************** -->
+    <div class="div">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Turismo Ecuador</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/inicioSeccion">Inicio</a></li>
+                    <li><a href="/lugaresTuristicos">Lugares Turisticos</a></li>
+                    <li><a href="/SitiosObservatorios">Sitios Observatorios</a></li>
+                    <li><a href="/playasEcuador">Playas</a></li>
+                    <li><a href="/IslaGalapagos">Islas Galapagos</a></li>
+                    <li><a href="/montañita">Montañita</a></li>
+                    <li><a href="/Gastronomia">Gastronomia</a></li>
+                    <li><a href="/Bloc_Informativo">Block Informativo</a></li>
+                    <li><a href="/Contactos">Contactos</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="/"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    </div>
+    <!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid top">
+        <div class="row">
+            <form id="contacto"
+                class="col-xs-12 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6"
+                method="get">
+                <h2>Contactanos</h2>
+                <div class="form-group">
+                    <label>Correo Electronico:</label>
+                    <input name="correo" type="email" class="form-control"
+                        error="El campo Correo Electronico no es valido" id="emailCont" placeholder="usuario@email.com"
+                        required>
+                </div>
+                <div class="form-group">
+                    <label>Nombre:</label>
+                    <input name="nombre" type="text" class="form-control" error="El campo Nombre no es valido"
+                        id="nombCont" placeholder="Katherine Bravo" required>
+                </div>
+                <div class="form-group">
+                    <label>Celular:</label>
+                    <input name="cel" type="text" class="form-control" error="El campo Celular no es valido"
+                        id="celCont" placeholder="0414-1234567" required>
+                </div>
+                <div class="form-group">
+                    <label>Asunto:</label>
+                    <input name="asunto" type="text" class="form-control" id="asunCont" placeholder="Asunto">
+                </div>
+                <div class="form-group">
+                    <label>Comentario:</label>
+                    <textarea name="coment" style="resize: none" class="form-control" id="coment" rows="3"
+                        required></textarea>
+                </div>
+                <button type="submit" id="botonCont" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="javaScrip.js"></script>
+
+</body>
+<style>
+    body {
+        background: url(https://static.vecteezy.com/system/resources/thumbnails/001/738/717/small/cosmetic-white-background-for-product-presentation-free-photo.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+</style>
+
+</html>
